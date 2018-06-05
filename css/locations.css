@@ -6,12 +6,12 @@
 }
 img{
     display: block;
-    max-width: 100;
+    max-width: 100%;
 }
 body{
     background: url(../assets/images/791534.jpg) no-repeat center ;
-    width:100%;
-    height:100%;
+    width:80%;
+    height:80%;
 }
 button{
     height: 100px;
@@ -19,5 +19,33 @@ button{
     background-color: #f5de31;
     border-radius: 50%;
     font-family: 'Pacifico', cursive;
-    
+    text-decoration: none;
+    box-sizing: content-boxñ
+}
+button:hover{
+    opacity: 5%;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #212525;
+}
+.gdl{
+    position: relative;
+    float: left;
+    left: 280px;
+    top: 80px;
+}
+.cdmx{
+    position: relative;
+    float: left;
+    left: 300px;
+    top: -5px;
+}
+.lima{
+    position: relative;
+    float: right;
+    right: 440px;
+    top: 350px;
+    display: block;
 }

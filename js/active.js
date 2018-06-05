@@ -50,9 +50,6 @@ var sumStudentsLIM = stLIM162 + stLIM171 + stLIM172
 var sumStudentsSCL = stSCL162 + stSCL171 + stSCL172 
 
 
-var arrayActive = []
-var arrayInactive = []
-
 //LIST OF ALL THE OBJECTS INSIDE THE PROPERTY STUDENTS
 
 //AREQUIPA 2016-2
@@ -104,7 +101,7 @@ for (var i=0; i<totalStAQP1.length; i++){
         activeAQP1++;
     }
 }
-console.log(activeAQP1);
+// console.log(activeAQP1);
 
 //COUNTER FOR ACTIVE STUDENTS IN AQP 2017-1
 var activeAQP2 = 0;
@@ -115,7 +112,7 @@ for (var i=0; i<totalStAQP2.length; i++){
         activeAQP2++;
     }
 }
-console.log(activeAQP2);
+// console.log(activeAQP2);
 
 //COUNTER FOR ACTIVE STUDENTS IN CDMX 2016-2
 var activeCDMX1 = 0;
@@ -126,7 +123,7 @@ for (var i=0; i<totalStCDMX1.length; i++){
         activeCDMX1++;
     }
 }
-console.log(activeCDMX1);
+// console.log(activeCDMX1);
 
 //COUNTER FOR ACTIVE STUDENTS IN CDMX 2017-1
 var activeCDMX2 = 0;
@@ -137,7 +134,7 @@ for (var i=0; i<totalStCDMX2.length; i++){
         activeCDMX2++;
     }
 }
-console.log(activeCDMX2);
+// console.log(activeCDMX2);
 
 //COUNTER FOR ACTIVE STUDENTS IN LIMA 2016-2
 var activeLIM1 = 0;
@@ -148,7 +145,7 @@ for (var i=0; i<totalStLIM1.length; i++){
         activeLIM1++;
     }
 }
-console.log(activeLIM1);
+// console.log(activeLIM1);
 
 //COUNTER FOR ACTIVE STUDENTS IN LIMA 2017-1
 var activeLIM2 = 0;
@@ -159,7 +156,7 @@ for (var i=0; i<totalStLIM2.length; i++){
         activeLIM2++;
     }
 }
-console.log(activeLIM2);
+// console.log(activeLIM2);
 
 //COUNTER FOR ACTIVE STUDENTS IN LIMA 2017-2
 var activeLIM3 = 0;
@@ -170,7 +167,7 @@ for (var i=0; i<totalStLIM3.length; i++){
         activeLIM3++;
     }
 }
-console.log(activeLIM3);
+// console.log(activeLIM3);
 
 //COUNTER FOR ACTIVE STUDENTS IN CHILE 2016-2
 var activeSCL1 = 0;
@@ -181,7 +178,7 @@ for (var i=0; i<totalStSCL1.length; i++){
         activeSCL1++;
     }
 }
-console.log(activeSCL1);
+// console.log(activeSCL1);
 
 //COUNTER FOR ACTIVE STUDENTS IN SANTIAGO DE CHILE 2017-1
 var activeSCL2 = 0;
@@ -192,7 +189,7 @@ for (var i=0; i<totalStSCL2.length; i++){
         activeSCL2++;
     }
 }
-console.log(activeSCL2);
+// console.log(activeSCL2);
 
 //COUNTER FOR ACTIVE STUDENTS IN SANTIAGO DE CHILE 2017-2
 var activeSCL3 = 0;
@@ -203,7 +200,7 @@ for (var i=0; i<totalStSCL3.length; i++){
         activeSCL3++;
     }
 }
-console.log(activeSCL3);
+// console.log(activeSCL3);
 
 //VARS TO CALL THE ID'S FROM THE <P>
 var activeAQP162 = document.getElementById("activeAQP162");
