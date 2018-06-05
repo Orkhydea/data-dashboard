@@ -14,8 +14,10 @@ body{
     height:100%;
 }
 button{
-    height: 150;
-    width: 150;
-    background-color: #fce689;
+    height: 100px;
+    width: 100px;
+    background-color: #f5de31;
     border-radius: 50%;
+    font-family: 'Pacifico', cursive;
+    
 }
