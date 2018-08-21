@@ -1,3 +1,227 @@
 /*
  * Estilos de tu proyecto
  */
+ /*[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+  }*/
+    /*.pure-menu {
+    font-weight: lighter;
+}
+.pure-menu.pure-menu-fixed {
+    position: fixed;
+}
+.pure-menu.pure-menu-blackbg {
+    background: #222;
+}
+.pure-menu.pure-menu-blackbg .pure-menu-heading:hover {
+    color: #efefef;
+}
+.pure-menu.pure-menu-blackbg a {
+    color: #fff;
+}
+.pure-menu.pure-menu-blackbg a:hover {
+    background: #666;
+}
+.pure-menu.pure-menu-blackbg .pure-menu-selected a {
+    background: #7E45D3;
+}
+.pure-menu.pure-menu-blackbg .pure-menu-selected a:hover {
+    color: #efefef;
+}
+.pure-menu {
+    font-weight: lighter;
+}
+.pure-menu.pure-menu-fixed {
+    position: fixed;
+}
+.pure-menu.pure-menu-blackbg {
+    background: #222;
+}
+.pure-menu.pure-menu-blackbg .pure-menu-heading:hover {
+    color: #efefef;
+}
+.pure-menu.pure-menu-blackbg a {
+    color: #fff;
+}
+.pure-menu.pure-menu-blackbg a:hover {
+    background: #666;
+}
+.pure-menu.pure-menu-blackbg .pure-menu-selected a {
+    background: #7E45D3;
+}
+.pure-menu.pure-menu-blackbg .pure-menu-selected a:hover {
+    color: #efefef;
+}
+.dashboard-piece {
+    min-height: 300px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding-bottom: 40px;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800|Yanone+Kaffeesatz:400,700');
+*{
+  box-sizing: border-box;
+}
+img{
+  display: block;
+  max-width: 100%;
+}
+body{
+    /*background-color: pink;*/
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 1.5px;
+}
+.section-titulo{
+  text-align: center;
+  font-size: 40px;
+  color: #FBA919;
+}
+.contenedor{
+  margin: auto;
+  width: 99%;
+}
+/*-------estilos de header-----*/
+.header{
+  height: 60px;
+}
+.header .contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+.logo, .icon-menu{
+  margin: 5px;
+  color: #fff;
+}
+.icon-menu{
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  background: #FBA919;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 5px;
+  margin-left: auto;
+  cursor: pointer;
+}
+/*--------------Estilos del menu------------*/
+.nav{
+  position: absolute;
+  top: 60px;
+  left: -100%;
+  width: 100%;
+transition: all 0.4s;
+}
+
+.menu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-link{
+  display: block;
+  padding: 15px;
+  background: #FBA919;
+  text-decoration: none;
+  color: #fff;
+  }
+.menu-link:hover, selected {
+  background:white;
+  color: #FBA919;
+}
+.mostrar{
+  left: 0;
+}
+
+/*estilos del banner*/
+
+.banner-img {
+  margin-top: -80px;
+  position: relative;
+  z-index: -1000;
+  margin-bottom: 20px;
+}
+.banner .contenedor{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+.banner_txt{
+display: none;
+}
+/*---estilos de info--*/
+
+.info-columna{
+  background: #FBA919;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+/*--ESTILOS DE CURSOS---*/
+.cursos-columna{
+  position: relative;
+  margin-bottom: 30px;
+}
+.cursos-descripcion{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: rgba(0,0,0,0,5);
+  width: 60%;
+  height: 100%;
+  padding: 5PX;
+}
+.cursos-titulo{
+  font-size: 50px;
+  margin: 5px 0;
+}
+.cursos-img{
+  width: 100%;
+}
+/*--ESTILOS DEL FOOTER---*/
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.footer .social [class^="fab"]{
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 40px;
+  padding: 3%;
+  background: white;
+  border-radius:50%;
+  height: 10%;
+  width: 10%;
+  line-height: 40px;
+}
+/*i.fab{
+   display: inline-block;
+   color: #333;
+   text-decoration: none;
+   background: white;
+   border-radius:50%;
+   height: 50%;
+   width: 50%;
+   line-height: 40px;
+ }
+*/
+/*----estilos responsive----*/

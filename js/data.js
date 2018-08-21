@@ -5130,3 +5130,47 @@ var data = {
     }
   }
 };
+
+
+
+
+//Object.filter = (obj, predicate) => 
+  //  Object.assign(...Object.keys(obj)
+    //                .filter( key => predicate(obj[key]) )
+      //              .map( key => ({ [key]: obj[key] }) ) );
+
+// Example use:
+//var scores = {
+  //  John: 2, Sarah: 3, Janet: 1
+//};
+//var newData = data.filter(function(el) {
+ // return (el.GDL === 'false');
+//});
+  //.filter((x)=> active.toLowerCase().indexOf(false) => 0)
+  //.map((x)=> x.name);
+//console.log(newData);
+
+/*function sortDataByID(err, response, data){ //the callback must take 3 parameters
+
+  if(err){
+      return res.json(err); //make sure there was no error
+  }
+
+  if(response.statusCode < 200 || response.statusCode > 299) { //Check for a non-error status code
+      return res.status(400).json(err)
+  }
+
+  let dataToReturn =  data.data.filter(function(item) { //data.data because you need to access the data property on the response body.
+      return item.id == 'false';
+  )}
+
+  console.log(dataToReturn)
+}
+*/
+
+function inactives() {
+  var sede = select.value;
+  var sedeName = select.options[select.selectIndex].dataset.sede;
+  console.log(sedeName);
+  //var generation = 
+}
